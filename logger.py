@@ -15,3 +15,5 @@ def save_log(cpu,ram,disk,status,now):
                         file.write(f"Warnings are {warning}\n")
         except OSError as e:
                 print("Unable to save log",e)
+
+#git practice 
